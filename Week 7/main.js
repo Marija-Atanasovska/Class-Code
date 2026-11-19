@@ -2,15 +2,6 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/Addons.js'
 import GUI from 'three/examples/jsm/libs/lil-gui.module.min.js'
 
-// TODO 1: Change the shapes of the objects.
-// Try adding different geometries (ConeGeometry, CylinderGeometry, TorusGeometry, etc.).
-// You can also add more objects with different colors and sizes.
-
-// TODO 2: Modify the Reset button so that it restores both the original position and original scale of every object.
-// Make sure all objects return to their initial state.
-
-// TODO 3: Add a GUI option to change the background color of the scene.
-
 const scene = new THREE.Scene()
 
 const camera = new THREE.PerspectiveCamera(60, innerWidth / innerHeight, 0.1, 100)
